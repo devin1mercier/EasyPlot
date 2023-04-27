@@ -1,6 +1,6 @@
 #FUNCTIONS
 
-multivariate = function(data, x, y, d, e){
+**multivariate** = function(data, x, y, d, e){
   library(ggplot2)
   ggplot(data, aes(x = {{x}}, y = {{y}})) +
     geom_point(aes(size = {{d}}, color = {{e}}))
