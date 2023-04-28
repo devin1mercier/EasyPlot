@@ -8,6 +8,7 @@
 #' @param y = y-axis variable
 #' @param d = variable measured by point size
 #' @param e = variable measured by point color
+#' @param title = "[title here]"
 #' @return a multivariate scatterplot
 #' 
 #' 
@@ -15,8 +16,9 @@
 #' Using R's preloaded mtcars dataset:
 #' multivariate(mtcars, hp, mpg, cyl, drat)
 #'
-multivariate = function(data, x, y, d, e){
+multivariate = function(data, x, y, d, e, title){
   library(ggplot2)
   ggplot(data, aes(x = {{x}}, y = {{y}})) +
-    geom_point(aes(size = {{d}}, color = {{e}}))
+    geom_point(aes(size = {{d}}, color = {{e}})) +
+    ggtitle(title)
 }
