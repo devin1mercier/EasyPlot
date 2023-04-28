@@ -3,11 +3,3 @@
 # Libraries needed for package functions:
 library(ggplot2)
 library(reshape2)
-
-# Clusters correlational values of a given matrix (necessary for the next function).
-# matrix = matrix
-reorder.cormat = function(matrix){
-  dd = as.dist((1 - matrix) / 2)
-  hc = hclust(dd)
-  matrix = matrix[hc$order, hc$order]
-}
