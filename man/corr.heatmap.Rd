@@ -7,9 +7,9 @@ corr.heatmap(data, color1, color2, title)
 \arguments{
 \item{data}{dataframe}
 
-\item{color1}{negative correlation, color hex code in parathenses}
+\item{color1}{negative correlation, color hex code in quotations}
 
-\item{color2}{positive correlation, color hex code in parathenses}
+\item{color2}{positive correlation, color hex code in quotations}
   
 \item{title}{plot title, title of plot}
 }
