@@ -14,5 +14,5 @@
 reorder.cormat = function(matrix){
   dd = as.dist((1 - matrix) / 2)
   hc = hclust(dd)
-  matrix = matrix[hc$order, hc$order]
+  m.matrix = m.matrix[hc$order, hc$order]
 }
