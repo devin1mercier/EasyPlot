@@ -14,7 +14,7 @@
 #' 
 #' @example
 #' Using R's preloaded mtcars dataset:
-#' multivariate(mtcars, hp, mpg, cyl, drat)
+#' multivariate(mtcars, hp, mpg, cyl, drat, "mtcars scatterplot")
 #'
 multivariate = function(data, x, y, d, e, title){
   library(ggplot2)
