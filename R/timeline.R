@@ -18,6 +18,6 @@
 timeline = function(data, x, y, color, title){
   library(ggplot2)
   ggplot(data, aes({{x}}, {{y}})) +
-    geom_line(color = color, size = 2) +
+    geom_line(color = color, linewidth = 1) +
     ggtitle(title)
 }
