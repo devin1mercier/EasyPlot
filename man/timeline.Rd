@@ -11,7 +11,7 @@ timeline(data, x, y, color, title)
   
 \item{y}{y variable, a numeric variable from specified dataframe}
 
-\item{color}{positive correlation, color hex code in parathenses}
+\item{color}{positive correlation, color hex code in quotations}
   
 \item{title}{plot title, title of plot in quotations}
 }
