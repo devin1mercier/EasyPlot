@@ -1,7 +1,7 @@
 #' @title Re-ordered cluster matrix
 #' 
 #' @description
-#' \code{multivariate} Clusters correlational values of a given matrix.
+#' \code{reorder.cormat} Clusters correlational values of a given matrix.
 #'           
 #' @param matrix = matrix
 #' 
