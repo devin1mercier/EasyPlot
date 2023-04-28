@@ -5,7 +5,7 @@
 #Date: 2023-04-28
 #Author: Devin Mercier
 #Maintainer: devinmercier@usf.edu
-#Description: This package contains functions that quickly create visualizations of your dataset. User can create:
+#Description: This package contains functions that quickly creates visualizations of your dataset. User can create:
   #Quadruple-variate scatterplot with a trend line. This plot measures 2 main variables on the axes and 2 subsequent variables through plot point size and color, respectively.
     #data = dataset, x = x variable, y = y variable, d = 1st sub variable, e = 2nd sub variable.
   #Correlational heatmap of specified variables from user's dataset (numerical only). User specifies colors and title.
