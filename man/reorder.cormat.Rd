@@ -2,7 +2,7 @@
 \alias{reorder.cormat}
 \title{Re-ordered cluster matrix}
 \usage{
-timeline(data, x, y, color, title)
+reorder.cormat(matrix)
 }
 \arguments{
 \item{matrix}{matrix}
