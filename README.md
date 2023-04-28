@@ -1,2 +1,2 @@
 # EasyPlot
-A package containing functions that quickly create visualizations of your given dataset.
+A package containing functions that quickly creates visualizations of your given dataset.
